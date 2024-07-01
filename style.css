@@ -1,12 +1,19 @@
 * {
   padding: 0;
   margin: 0;
-  --primary-color: #ce343d;
+  --primary-color: #89dceb;
   --secondary-color: #21817a;
   --tertiary-color: #97c532;
   --tertiary-color-100: #d0f285;
   --secondary-color-1: #d27935;
   font-family: Arial, Helvetica, sans-serif;
+  --text-color-1: #333;
+  --text-color-2: #666;
+  --crust: #11111b;
+  --mantle: #181825;
+  --base: #1e1e2e;
+  --surface-0: #313244;
+  --surface-1: #45475a;
 }
 
 body {
@@ -24,7 +31,6 @@ body {
   grid-column: 1/2;
   grid-row: 1 / span 2;
   background: var(--primary-color);
-  color: white;
 }
 
 .sidebar div {
@@ -68,7 +74,7 @@ ul {
 .topbar {
   grid-column: 2/3;
   grid-row: 1/2;
-  background: yellowgreen;
+  background: #a6e3a1;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
